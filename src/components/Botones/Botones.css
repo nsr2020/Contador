@@ -1,0 +1,27 @@
+.Botones{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.Botones button:first-of-type{
+    background-color: green;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+.Botones button:last-of-type{
+    background-color: red;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.Botones button:first-of-type:hover{
+  border: 3px solid rgb(60, 255, 0);
+}
+.Botones button:last-of-type:hover{
+   border: 3px solid rgb(212, 121, 121);
+}
